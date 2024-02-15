@@ -1,0 +1,169 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Crear Nuevo Producto</h1>
+                </div><!-- /.col -->
+               
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <!-- SELECT2 EXAMPLE -->
+
+            <div class="card card-default card-cyan">
+                <div class="card-header">
+                    <h3 class="card-title">Introduzca los Datos del Producto</h3>
+
+                    @* <div class="card-tools">
+                        <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-tool" data-card-widget="remove">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div> *@
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="row">
+                       
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Número de Serie</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Descripción</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Costo</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Precio</label>
+                                    <input class="form-control" id="exampleInputEmail1" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">Imagen</label>
+                                    <div class="input-group">
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="exampleInputFile">
+                                            <label class="custom-file-label" for="exampleInputFile">Elija la Imagen</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label>Categoría</label>
+                                    <select class="form-control select2" style="width: 100%;">
+                                        <option selected="selected">Alabama</option>
+                                        <option>Alaska</option>
+                                        <option>California</option>
+                                        <option>Delaware</option>
+                                        <option>Tennessee</option>
+                                        <option>Texas</option>
+                                        <option>Washington</option>
+                                    </select>
+                                </div>
+
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label>Marca</label>
+                                    <select class="form-control select2" style="width: 100%;">
+                                        <option selected="selected">Alabama</option>
+                                        <option>Alaska</option>
+                                        <option>California</option>
+                                        <option>Delaware</option>
+                                        <option>Tennessee</option>
+                                        <option>Texas</option>
+                                        <option>Washington</option>
+                                    </select>
+                                </div>
+                                <!-- /.form-group -->
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label>Producto Padre</label>
+                                    <select class="form-control select2" style="width: 100%;">
+                                        <option selected="selected">Alabama</option>
+                                        <option>Alaska</option>
+                                        <option>California</option>
+                                        <option>Delaware</option>
+                                        <option>Tennessee</option>
+                                        <option>Texas</option>
+                                        <option>Washington</option>
+                                    </select>
+                                </div>
+                                <!-- /.form-group -->
+                                <!-- /.form-group -->
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    
+                                        <div class="img-border">
+                                        <img class="img-fluid rounded" src="img/feature.jpg" alt="">
+                                        </div>
+                                    
+                                </div>
+
+                               
+                           
+                                <div class="form-group">
+                                    <label>Estado</label>
+                                    <select class="form-control select2" style="width: 100%;">
+                                        <option selected="selected">Activo</option>
+                                        <option>Inactivo</option>
+                                    
+                                    </select>
+                                </div>
+
+                                <!-- /.form-group -->
+                                <br />
+                                <div class="col-auto d-flex align-items-center">
+                                    <div class="btn-group pt-2">
+                                        <button class="btn btn-primary start">
+                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                            <span>Crear</span>
+                                        </button>
+                                    
+                                        <button data-dz-remove class="btn btn-success cancel">
+                                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                            <span>Regresar</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                      
+                        <!-- /.col -->
+                        </div>
+                    </form>
+                    <!-- /.row -->
+                </div>
+                <!-- /.card-body -->
+                
+            </div>
+            
+        </div>
+    
+    </section>
+</div>
+<!-- /.content-wrapper -->
